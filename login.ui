@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>767</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>20</horstretch>
+    <verstretch>20</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>20</width>
+    <height>20</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgba(16, 30, 41, 240);
+border-radius:10px;
+QPushButton#pushButton{
+background-color:rgba(2, 65, 118, 255);
+color:rgba(255, 255, 255, 200);
+border-radius:5px;
+}
+QPushButton#pushButton:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(2, 65, 118, 100);
+background-position:calc(100% - 10px)center;
+}
+QPushButton#pushButton:hover{
+background-color:rgba(2, 65, 118, 200);
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-160</x>
+     <y>-50</y>
+     <width>1041</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>36</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color:none;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt;&quot;&gt;Login&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLogin">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>480</y>
+     <width>191</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+border-radius:10%;</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnFaceID">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>480</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+border-radius:10%;</string>
+   </property>
+   <property name="text">
+    <string>face id</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtUserName">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>330</y>
+     <width>561</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:1px solid rgba(0, 0, 0, 0);
+border-bottom-color:rgba(46, 82, 101, 255);
+color:rgb(255, 255, 255);
+padding-bottom:5px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>User Name</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
